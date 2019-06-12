@@ -1,0 +1,106 @@
+
+
+* {
+    box-sizing: border-box;
+   }
+   
+.header {
+    padding: 10px;
+    background-color: blue;
+    width: 100%;
+   
+}
+
+.nav-header {
+    padding-left: 15px;
+    font-size: 22px;
+    color: #F8FFFF;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.nav-header-item a  {
+    text-decoration: none;
+    color: #F8FFFF;
+    margin-right: 18px;
+
+}
+
+.nav-header-item:hover {
+    text-decoration: underline;
+}
+
+
+.header-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    color: #F8FFFF;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    padding-left: 10px;
+    margin-bottom: 0px;
+  
+}
+
+.intro {
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.images {
+    width: 33.2%;   
+}
+
+.size {
+    width: 50%;
+}
+
+.list-header {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Barlow', sans-serif;   
+    margin-left: 25px;
+}
+
+.table-info {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 55px;
+
+}
+
+.table-header {
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+.location {
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    padding: 8px;
+}
+
+.location-header {
+    font-size: 25px;
+    background-color: gainsboro;
+    padding-left: 10px;
+    border: 1px;
+}
+
+.book-list {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}

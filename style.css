@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+   }
+
+@media (max-width: 499px) {
+    .main-headline::before {
+        content: "";
+    }
+}
+
+
+.header {
+    background-color: blue;
+    font-family: 'Barlow', sans-serif
+}
+
+
+.main-headline {
+    margin: 5px;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    color: #F8FFFF;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: blue;
+    font-family: 'Barlow', sans-serif
+    border: solid blue 30px;
+}
+
+.headline-text {
+    margin: 5px;
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px solid black;
+    font-family: 'Barlow', sans-serif;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+
+}
+
+.story-headline {
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.story-headline a {
+    text-decoration: none;
+    color: red;
+}
+
+.story-headline a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.story-text {
+    line-height: 1.2;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+
+.item-emphasis {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.span {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.computer-image {
+    padding: 5px;
+}
+
+.three-quarters {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.nav-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+    flex:1;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav-list a{
+    text-decoration: none;  
+    color: gray;    
+}
+
+.nav-item a:hover {
+    text-decoration: underline;  
+    color: blue; 
+}
+
+.nav-story-text {
+    font-size: 25px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.color1 {
+    background-color: lightblue;
+}
+
+.color2 {
+    background-color: lightcoral;
+}
+
+.color3 {
+    background-color: lightblue;
+}
